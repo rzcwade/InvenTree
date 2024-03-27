@@ -1060,7 +1060,7 @@ def frontend_download(
     ref=None,
     tag=None,
     file=None,
-    repo='InvenTree/inventree',
+    repo='TapRen/TapRen_PCBInventory',
     extract=True,
     clean=True,
 ):

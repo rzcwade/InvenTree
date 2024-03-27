@@ -3,7 +3,7 @@ import { ActionIcon } from '@mantine/core';
 import { forwardRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import InvenTreeIcon from './inventree.svg';
+//import InvenTreeIcon from './inventree.svg';
 
 export const InvenTreeLogoHomeButton = forwardRef<HTMLDivElement>(
   (props, ref) => {
@@ -20,5 +20,5 @@ export const InvenTreeLogoHomeButton = forwardRef<HTMLDivElement>(
 );
 
 export const InvenTreeLogo = () => {
-  return <img src={InvenTreeIcon} alt={t`InvenTree Logo`} height={28} />;
+  return <img src={} alt={t`InvenTree Logo`} height={28} />;
 };
